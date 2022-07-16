@@ -1,0 +1,248 @@
+C:\Users\97257\anaconda3\envs\tensorflow\python.exe D:/pythonProject/test/NLP/train.py
+2021-05-09 18:27:13.440480: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cudart64_110.dll
+2021-05-09 18:27:16.527341: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-05-09 18:27:16.528180: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library nvcuda.dll
+2021-05-09 18:27:16.558632: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: GeForce RTX 2060 with Max-Q Design computeCapability: 7.5
+coreClock: 1.185GHz coreCount: 30 deviceMemorySize: 6.00GiB deviceMemoryBandwidth: 245.91GiB/s
+2021-05-09 18:27:16.558795: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cudart64_110.dll
+2021-05-09 18:27:16.558866: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cublas64_11.dll
+2021-05-09 18:27:16.558941: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cublasLt64_11.dll
+2021-05-09 18:27:16.559016: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cufft64_10.dll
+2021-05-09 18:27:16.559088: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library curand64_10.dll
+2021-05-09 18:27:16.567847: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cusolver64_10.dll
+2021-05-09 18:27:16.567943: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cusparse64_11.dll
+2021-05-09 18:27:16.568019: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cudnn64_8.dll
+2021-05-09 18:27:16.568169: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2021-05-09 18:27:46.523862: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-05-09 18:27:46.525124: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: GeForce RTX 2060 with Max-Q Design computeCapability: 7.5
+coreClock: 1.185GHz coreCount: 30 deviceMemorySize: 6.00GiB deviceMemoryBandwidth: 245.91GiB/s
+2021-05-09 18:27:46.525374: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cudart64_110.dll
+2021-05-09 18:27:46.525472: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cublas64_11.dll
+2021-05-09 18:27:46.525553: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cublasLt64_11.dll
+2021-05-09 18:27:46.525632: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cufft64_10.dll
+2021-05-09 18:27:46.525712: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library curand64_10.dll
+2021-05-09 18:27:46.525796: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cusolver64_10.dll
+2021-05-09 18:27:46.525881: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cusparse64_11.dll
+2021-05-09 18:27:46.525973: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cudnn64_8.dll
+2021-05-09 18:27:46.526123: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2021-05-09 18:27:47.148036: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-05-09 18:27:47.148136: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 
+2021-05-09 18:27:47.148190: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N 
+2021-05-09 18:27:47.148377: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 4720 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2060 with Max-Q Design, pci bus id: 0000:01:00.0, compute capability: 7.5)
+2021-05-09 18:27:47.149472: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-05-09 18:27:49.292066: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+Epoch 1/100
+2021-05-09 18:27:56.180959: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cublas64_11.dll
+2021-05-09 18:27:56.676216: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cublasLt64_11.dll
+2021-05-09 18:27:57.092758: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cudnn64_8.dll
+19/19 - 21s - loss: 0.3384 - accuracy: 0.3406
+Epoch 2/100
+19/19 - 12s - loss: 0.2871 - accuracy: 0.4710
+Epoch 3/100
+19/19 - 12s - loss: 0.2450 - accuracy: 0.6098
+Epoch 4/100
+19/19 - 12s - loss: 0.1950 - accuracy: 0.6812
+Epoch 5/100
+19/19 - 12s - loss: 0.1572 - accuracy: 0.7525
+Epoch 6/100
+19/19 - 12s - loss: 0.1263 - accuracy: 0.8009
+Epoch 7/100
+19/19 - 9s - loss: 0.1101 - accuracy: 0.8270
+Epoch 8/100
+19/19 - 12s - loss: 0.1026 - accuracy: 0.8397
+Epoch 9/100
+19/19 - 12s - loss: 0.0982 - accuracy: 0.8478
+Epoch 10/100
+19/19 - 12s - loss: 0.0946 - accuracy: 0.8539
+Epoch 11/100
+19/19 - 12s - loss: 0.0913 - accuracy: 0.8600
+Epoch 12/100
+19/19 - 12s - loss: 0.0882 - accuracy: 0.8654
+Epoch 13/100
+19/19 - 9s - loss: 0.0853 - accuracy: 0.8702
+Epoch 14/100
+19/19 - 12s - loss: 0.0829 - accuracy: 0.8740
+Epoch 15/100
+2021-05-09 18:30:53.337423: I tensorflow/stream_executor/cuda/cuda_driver.cc:789] failed to allocate 613.15M (642935552 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-05-09 18:30:53.337549: I tensorflow/stream_executor/cuda/cuda_driver.cc:789] failed to allocate 551.84M (578642176 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-05-09 18:30:53.337650: I tensorflow/stream_executor/cuda/cuda_driver.cc:789] failed to allocate 496.65M (520777984 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-05-09 18:30:53.337747: I tensorflow/stream_executor/cuda/cuda_driver.cc:789] failed to allocate 446.99M (468700160 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-05-09 18:30:53.337842: I tensorflow/stream_executor/cuda/cuda_driver.cc:789] failed to allocate 402.29M (421830144 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-05-09 18:30:53.337937: I tensorflow/stream_executor/cuda/cuda_driver.cc:789] failed to allocate 362.06M (379647232 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-05-09 18:30:53.338040: I tensorflow/stream_executor/cuda/cuda_driver.cc:789] failed to allocate 325.85M (341682688 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+19/19 - 12s - loss: 0.0809 - accuracy: 0.8771
+Epoch 16/100
+19/19 - 12s - loss: 0.0792 - accuracy: 0.8798
+Epoch 17/100
+19/19 - 13s - loss: 0.0775 - accuracy: 0.8828
+Epoch 18/100
+19/19 - 12s - loss: 0.0760 - accuracy: 0.8850
+Epoch 19/100
+19/19 - 13s - loss: 0.0747 - accuracy: 0.8872
+Epoch 20/100
+19/19 - 12s - loss: 0.0734 - accuracy: 0.8895
+Epoch 21/100
+19/19 - 13s - loss: 0.0721 - accuracy: 0.8915
+Epoch 22/100
+19/19 - 13s - loss: 0.0709 - accuracy: 0.8935
+Epoch 23/100
+19/19 - 13s - loss: 0.0699 - accuracy: 0.8953
+Epoch 24/100
+19/19 - 9s - loss: 0.0686 - accuracy: 0.8972
+Epoch 25/100
+19/19 - 12s - loss: 0.0675 - accuracy: 0.8991
+Epoch 26/100
+19/19 - 12s - loss: 0.0664 - accuracy: 0.9009
+Epoch 27/100
+19/19 - 13s - loss: 0.0655 - accuracy: 0.9023
+Epoch 28/100
+19/19 - 12s - loss: 0.0645 - accuracy: 0.9039
+Epoch 29/100
+19/19 - 12s - loss: 0.0636 - accuracy: 0.9055
+Epoch 30/100
+19/19 - 13s - loss: 0.0626 - accuracy: 0.9072
+Epoch 31/100
+19/19 - 13s - loss: 0.0616 - accuracy: 0.9085
+Epoch 32/100
+19/19 - 13s - loss: 0.0608 - accuracy: 0.9100
+Epoch 33/100
+19/19 - 12s - loss: 0.0599 - accuracy: 0.9115
+Epoch 34/100
+19/19 - 12s - loss: 0.0591 - accuracy: 0.9128
+Epoch 35/100
+19/19 - 12s - loss: 0.0583 - accuracy: 0.9142
+Epoch 36/100
+19/19 - 13s - loss: 0.0576 - accuracy: 0.9153
+Epoch 37/100
+19/19 - 12s - loss: 0.0567 - accuracy: 0.9167
+Epoch 38/100
+19/19 - 12s - loss: 0.0559 - accuracy: 0.9180
+Epoch 39/100
+19/19 - 12s - loss: 0.0551 - accuracy: 0.9193
+Epoch 40/100
+19/19 - 12s - loss: 0.0544 - accuracy: 0.9206
+Epoch 41/100
+19/19 - 12s - loss: 0.0537 - accuracy: 0.9216
+Epoch 42/100
+19/19 - 12s - loss: 0.0530 - accuracy: 0.9229
+Epoch 43/100
+19/19 - 12s - loss: 0.0523 - accuracy: 0.9240
+Epoch 44/100
+19/19 - 12s - loss: 0.0517 - accuracy: 0.9251
+Epoch 45/100
+19/19 - 12s - loss: 0.0509 - accuracy: 0.9262
+Epoch 46/100
+19/19 - 13s - loss: 0.0503 - accuracy: 0.9271
+Epoch 47/100
+19/19 - 12s - loss: 0.0496 - accuracy: 0.9283
+Epoch 48/100
+19/19 - 13s - loss: 0.0489 - accuracy: 0.9293
+Epoch 49/100
+19/19 - 12s - loss: 0.0484 - accuracy: 0.9301
+Epoch 50/100
+19/19 - 12s - loss: 0.0478 - accuracy: 0.9310
+Epoch 51/100
+19/19 - 12s - loss: 0.0472 - accuracy: 0.9323
+Epoch 52/100
+19/19 - 13s - loss: 0.0465 - accuracy: 0.9331
+Epoch 53/100
+19/19 - 12s - loss: 0.0460 - accuracy: 0.9340
+Epoch 54/100
+19/19 - 13s - loss: 0.0455 - accuracy: 0.9348
+Epoch 55/100
+19/19 - 13s - loss: 0.0449 - accuracy: 0.9357
+Epoch 56/100
+19/19 - 21s - loss: 0.0444 - accuracy: 0.9365
+Epoch 57/100
+19/19 - 22s - loss: 0.0439 - accuracy: 0.9374
+Epoch 58/100
+19/19 - 15s - loss: 0.0433 - accuracy: 0.9382
+Epoch 59/100
+19/19 - 13s - loss: 0.0428 - accuracy: 0.9391
+Epoch 60/100
+19/19 - 13s - loss: 0.0423 - accuracy: 0.9398
+Epoch 61/100
+19/19 - 13s - loss: 0.0418 - accuracy: 0.9407
+Epoch 62/100
+19/19 - 12s - loss: 0.0414 - accuracy: 0.9411
+Epoch 63/100
+19/19 - 12s - loss: 0.0409 - accuracy: 0.9420
+Epoch 64/100
+19/19 - 12s - loss: 0.0405 - accuracy: 0.9427
+Epoch 65/100
+19/19 - 12s - loss: 0.0399 - accuracy: 0.9437
+Epoch 66/100
+19/19 - 12s - loss: 0.0395 - accuracy: 0.9441
+Epoch 67/100
+19/19 - 12s - loss: 0.0392 - accuracy: 0.9446
+Epoch 68/100
+19/19 - 12s - loss: 0.0386 - accuracy: 0.9456
+Epoch 69/100
+19/19 - 12s - loss: 0.0382 - accuracy: 0.9463
+Epoch 70/100
+19/19 - 12s - loss: 0.0378 - accuracy: 0.9468
+Epoch 71/100
+19/19 - 13s - loss: 0.0373 - accuracy: 0.9475
+Epoch 72/100
+19/19 - 13s - loss: 0.0369 - accuracy: 0.9481
+Epoch 73/100
+19/19 - 9s - loss: 0.0365 - accuracy: 0.9488
+Epoch 74/100
+19/19 - 13s - loss: 0.0362 - accuracy: 0.9493
+Epoch 75/100
+19/19 - 13s - loss: 0.0357 - accuracy: 0.9499
+Epoch 76/100
+19/19 - 13s - loss: 0.0353 - accuracy: 0.9505
+Epoch 77/100
+19/19 - 12s - loss: 0.0350 - accuracy: 0.9511
+Epoch 78/100
+19/19 - 12s - loss: 0.0346 - accuracy: 0.9516
+Epoch 79/100
+19/19 - 12s - loss: 0.0343 - accuracy: 0.9522
+Epoch 80/100
+19/19 - 12s - loss: 0.0340 - accuracy: 0.9525
+Epoch 81/100
+19/19 - 12s - loss: 0.0335 - accuracy: 0.9534
+Epoch 82/100
+19/19 - 12s - loss: 0.0332 - accuracy: 0.9539
+Epoch 83/100
+19/19 - 12s - loss: 0.0328 - accuracy: 0.9545
+Epoch 84/100
+19/19 - 13s - loss: 0.0326 - accuracy: 0.9547
+Epoch 85/100
+19/19 - 13s - loss: 0.0322 - accuracy: 0.9553
+Epoch 86/100
+19/19 - 13s - loss: 0.0318 - accuracy: 0.9560
+Epoch 87/100
+19/19 - 12s - loss: 0.0315 - accuracy: 0.9563
+Epoch 88/100
+19/19 - 13s - loss: 0.0311 - accuracy: 0.9571
+Epoch 89/100
+19/19 - 13s - loss: 0.0308 - accuracy: 0.9575
+Epoch 90/100
+19/19 - 9s - loss: 0.0304 - accuracy: 0.9581
+Epoch 91/100
+19/19 - 13s - loss: 0.0302 - accuracy: 0.9583
+Epoch 92/100
+19/19 - 12s - loss: 0.0301 - accuracy: 0.9583
+Epoch 93/100
+19/19 - 12s - loss: 0.0300 - accuracy: 0.9584
+Epoch 94/100
+19/19 - 13s - loss: 0.0294 - accuracy: 0.9594
+Epoch 95/100
+19/19 - 12s - loss: 0.0289 - accuracy: 0.9602
+Epoch 96/100
+19/19 - 12s - loss: 0.0286 - accuracy: 0.9606
+Epoch 97/100
+19/19 - 12s - loss: 0.0283 - accuracy: 0.9611
+Epoch 98/100
+19/19 - 12s - loss: 0.0280 - accuracy: 0.9617
+Epoch 99/100
+19/19 - 13s - loss: 0.0277 - accuracy: 0.9620
+Epoch 100/100
+19/19 - 12s - loss: 0.0275 - accuracy: 0.9623
+
+Process finished with exit code 0
