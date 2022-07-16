@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 模型建立：bilstm.py
 训练模型：train.py
 分词测试：testtrain.py
@@ -14,3 +15,7 @@ tensorflow-addons：0.12.1
 
 
 
+=======
+# BiLSTM-CRF-Word-segmentation
+NLP homework, 2021.5
+>>>>>>> d3681d06018f06cca0845f1cf3bea900d3e922ba
